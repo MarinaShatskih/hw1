@@ -10,7 +10,7 @@ name: Java CI with Gradle
 on: [push, pull_request]
 
 jobs:
-  build: testng, junit4
+  build: 
 
     runs-on: ubuntu-latest
 
