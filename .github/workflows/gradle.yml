@@ -7,11 +7,20 @@
 
 name: Java CI with Gradle
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
+      - testng
+      - junit4
+  pull_request:
+    branches:
+      - main
+      - testng
+      - junit4
 
 jobs:
-  build: 
-
+  build:
     runs-on: ubuntu-latest
 
     steps:
